@@ -1,0 +1,23 @@
+service: translate-telegram-bot
+
+provider:
+  name: aws
+  runtime: python3.6
+
+  stage: v0
+  region: us-east-2
+
+  environment:
+    TELEGRAM_TOKEN: ${env:TELEGRAM_TOKEN}
+
+
+
+functions:
+  post:
+    handler: handler.entry_point
+
+    events:
+      - http:
+          path: custom-url
+          method: post
+          cors: true
