@@ -1,3 +1,12 @@
+[![Translate Bot on Telegram][telegram-bot-badge]][telegram-bot-link]
+[![MIT License][license-badge]][license-link]
+
+[telegram-bot-badge]:   https://img.shields.io/badge/Telegram-Bot-blue.svg
+[telegram-bot-link]:    https://t.me/PythonTranslateBot
+[license-badge]:        https://img.shields.io/badge/License-MIT-yellow.svg
+[license-link]:         https://github.com/pashinov/translate-telegram-bot/blob/master/LICENSE
+
+
 ## Translate Telegram bot
 
 ### Intro
